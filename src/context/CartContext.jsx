@@ -1,6 +1,5 @@
 import { createContext, useContext, useReducer, useEffect } from "react";
 
-// ✅ Declare and export the context
 export const CartContext = createContext();
 
 const initialState = {
@@ -53,7 +52,6 @@ const cartReducer = (state, action) => {
   }
 };
 
-// ✅ CartProvider component
 export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(cartReducer, initialState);
 
@@ -68,5 +66,4 @@ export const CartProvider = ({ children }) => {
   );
 };
 
-// ✅ Custom hook to use cart context easily
 export const useCart = () => useContext(CartContext);
