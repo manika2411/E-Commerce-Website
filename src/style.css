@@ -10,7 +10,6 @@
   --card-bg: #ffffff;
 }
 
-/* === RESET === */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ body {
   line-height: 1.6;
 }
 
-/* === STICKY NAVBAR === */
 .navbar {
   width: 100%;
   background: linear-gradient(to right, #6c5ce7, #8e44ad);
@@ -54,7 +52,6 @@ body {
   color: white;
 }
 
-/* === NAV LINKS === */
 .nav-links {
   display: flex;
   gap: 1.5rem;
@@ -91,7 +88,6 @@ body {
   width: 100%;
 }
 
-/* === HAMBURGER BUTTON === */
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
@@ -101,7 +97,6 @@ body {
   border: none;
 }
 
-/* === RESPONSIVE NAVBAR === */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -134,7 +129,6 @@ body {
   }
 }
 
-/* === BUTTONS === */
 .btn,
 .product-btn {
   padding: 0.6rem 1.2rem;
@@ -168,7 +162,6 @@ body {
   color: white;
 }
 
-/* === PRODUCT CARD === */
 .card,
 .product-card {
   background-color: var(--card-bg);
@@ -211,7 +204,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* === LAYOUT === */
 .container,
 .home {
   max-width: 1280px;
@@ -227,7 +219,6 @@ body {
   gap: 2rem;
 }
 
-/* === SECTION === */
 .section {
   background-color: white;
   border-radius: 20px;
@@ -241,7 +232,6 @@ body {
   color: var(--primary);
 }
 
-/* === FILTERS === */
 .filters {
   display: flex;
   gap: 1rem;
@@ -262,7 +252,6 @@ body {
   background-color: var(--mint);
 }
 
-/* === MEDIA QUERIES (Extra) === */
 @media (max-width: 1024px) {
   .container,
   .home {
